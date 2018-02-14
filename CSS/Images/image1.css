@@ -1,0 +1,22 @@
+
+
+.slika1 {
+    display: block;
+    height: 200px;
+    float: right;
+    
+}
+.slika2 {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    clear: both;   
+    
+}
+.slika3 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
