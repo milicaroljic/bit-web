@@ -10,6 +10,13 @@ container {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media (min-width: 1200px) {
+    container {
+      width: 80%;   
+    }
+   
+}
+
 
 header {
     width: 100%;
@@ -42,13 +49,14 @@ h1 {
 @media (min-width: 768px) {
     nav {
         position: absolute;
-        top: 0;
+        top: 20px;
         right: 0;
         float: right;
-        width: 30%;
+        width: 40%;
     }
     nav ul {
         text-align: right;
+      
     }
 }
 
@@ -61,6 +69,8 @@ nav li {
 @media (min-width: 768px) {
     nav li {
         display: inline-block;
+        padding: 10px;
+    
     }
 }
 
@@ -81,6 +91,45 @@ article {
 article > img {
     width: 100%;
     margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+    article {
+        border:1px gray solid;
+        border-radius: 5px;
+   
+        /* margin: 0; */
+    }
+    p {
+        display: inline-block;
+        width: 50%;
+        padding: 10px 5px 10px 5px;
+    }
+    article img {
+        width: 49%;
+        display: inline-block;
+        margin: auto;
+        padding: 0px 5px 0px 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    article { 
+        display: inline-block;
+        width: 33%;
+        padding: 10px 5px 5px 10px;
+    }
+    article img {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    p {
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+        padding-left: 30px;
+    }
 }
 
 p {
