@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(./assets/images/banner3.jpg);
+    background-size: cover;
+    padding: 10% 0% 10% 0%;
+
+}
+header > h2 {
+    text-align: center;
+    color: white;
+}
+
+header > .button {
+    background-color: rgb(70, 107, 230);
+    color: white;
+    border-radius: 8%;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+    margin: 4% auto;
+}
+nav {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    color: gray;
+    margin: 5% auto;
+    width: 50%
+    
+}
+
+.header-span {
+    border-left: 5px solid grey;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    color: orange;
+
+}
+nav ul{
+    width: 90%;
+    margin: 1% auto;
+
+}
+nav li {
+    display: block;
+    background-color: rgb(36, 147, 221);
+    list-style-type: none;
+    padding: 1%;
+    text-align: center;
+
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}    
+
+section h2 {
+    text-align: center;
+}
+
+hr {
+    color: black;
+    width: 40%;
+    margin: 5% auto 5%;
+}
+
+article h4 {
+    color:rgb(36, 147, 221);
+    padding-left: 7%;
+    letter-spacing: 1px;
+    margin-bottom: 4%;
+}
+
+article p {
+    margin: 0 auto 5%;
+    width: 87%;
+}
+
+article ul {
+    width: 75%;
+    margin: 0 auto;
+}
+
+article li {
+    list-style-image: url(./assets/images/arrow_bullet.png);
+    margin: 5% 0
+}
+
+article img {
+    width: 85%;
+    display: block;
+    margin: 10% auto;
+}
