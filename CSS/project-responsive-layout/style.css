@@ -402,9 +402,7 @@ footer {
         display: none;
     }
 
-    .house img {
-        height: 147px;
-    }
+    
 
     .section-5:after {
         display: block;
@@ -501,6 +499,9 @@ footer {
     form {
         width: 60%;
         margin: 0 auto;
+    }
+    textarea {
+        width: 90%;
     }
     
     footer {
