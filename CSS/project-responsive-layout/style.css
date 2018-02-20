@@ -200,7 +200,8 @@ h4,
 /* section3 */
 #mail-phone {
     background-color: #3add9a;
-    height: 150px;
+    /* height: 150px; */
+    margin: 0  auto;
 }
 
 .inner-contact-holder {
@@ -224,7 +225,8 @@ h4,
 #social-networks {
     background-color: #fc5282;
     text-align: center;
-    height: 150px;
+    /* height: 150px; */
+    margin: 0 auto;
 }
 
 .social-link {
@@ -233,7 +235,8 @@ h4,
 
 #address-holder {
     background-color: #376ce4;
-    height: 150px;
+    /* height: 150px; */
+    margin: 0 auto;
     
 }
 
@@ -246,19 +249,24 @@ h4,
 .house {
     background-color: #81c3f5;
     text-align: center;
+    margin: 0 auto;
+    display: block;
+    
 }
 
 .house img {
-    height: 180px;
-    width: 80%;
+    
+    width: 30%;
 }
 
 iframe {
     max-width: 100%;
 }
 
-fieldset {
+form {
     border: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 input,
@@ -267,6 +275,7 @@ textarea {
     width: 100%;
     margin-bottom: 15px;
     padding: 7px;
+    border: 1px solid gray;
 }
 
 input[type=submit] {
@@ -287,7 +296,8 @@ footer {
 
 #footer-nav {
     padding: 1%;
-    margin: 0 0 25px 0;
+    margin: 0 auto 10px auto;
+    width: 100%;
 }
 
 #footer-list {
