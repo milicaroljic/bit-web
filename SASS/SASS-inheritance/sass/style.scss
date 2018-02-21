@@ -1,0 +1,24 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+p {
+    border: 2px solid blue;
+    font-size: 1.5em;
+    width: 500px / 960px *100%;
+}
+
+p:first-child {
+@extend p;
+   border-color:red; 
+   width: 400px / 960px *100%;
+
+}
+p:last-child {
+    @extend p;
+    border-color:green;
+    width: 600px / 960px *100%;
+}
+

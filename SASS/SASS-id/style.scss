@@ -1,7 +1,8 @@
 $bojaPozadine: rgb(252, 126, 9);
 $font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 $bojaSlova: rgb(184, 35, 35);
-$bojaTabele:rgb(241, 188, 12);
+$bojaPrveTabele:rgb(241, 188, 12);
+$bojaDrugeTabele:rgb(180, 241, 12);
 $bojabody:rgb(151, 245, 193);
 
 
@@ -13,51 +14,63 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 50%;
     margin: 0 auto;
 }
 
 h1 {
-    padding: 20px 0;
+    padding: 3% 0;
     text-align: center;
     background:$bojaPozadine;
     color: $bojaSlova;
 }
 
 h2 {
-    margin-bottom: 0px;
-    padding-left: 10px;
+    margin-bottom: 0;
+    padding-left: 1%;
     text-align: left;
     background: $bojaPozadine;
     color: $bojaSlova;
 }
 
 img {
-    height: 400px;
-    margin: 40px auto 40px;
+    height: 40%;
+    margin: 4% auto 4%;
     display: block;
 }
 
-table {
+.first_table {
+    width: 100%;
+    color: rgb(88, 0, 129);
+    background: $bojaPrveTabele;
+    border-collapse: collapse;
+    tr {
+        border-bottom: 2px solid #eee;
+    }
+    td {
+        padding: 1% 0;
+    }
+}
+
+.second_table {
     width: 100%;
     color: #333;
-    background: $bojaTabele;
+    background: $bojaDrugeTabele;
     border-collapse: collapse;
-}
-
-tr {
-    border-bottom: 1px solid #eee;
-}
-
-td {
-    padding: 5px 0;
-}
-
-td:first-child {
-    width: 300px;
-    padding-left: 10px;
+    tr {
+        border-bottom: 2px solid #eee;
+    }
+    td {
+        padding: 1% 0;
+        &:first-child {
+            width: 30%;
+            padding-left: 2%;
+        }
+    }
+    
 }
 
 p#footer {
-    margin-top: 100px;
+    margin-top: 10%;
+    background-color: rgb(34, 240, 6);
 }

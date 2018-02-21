@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'mixins';
+
+h1 {
+    @include text-shadow;
+   font-family: $text-font;
+   font-size: $heading-text-size;
+}
+
+table {
+    border: 2px solid $border-color ;
+    border-radius: 10px;
+    padding: 5px;
+    border-collapse: collapse;
+    @include box-shadow;
+    td {
+        border: 1px solid $border-color;
+        padding: 10px;
+    }
+}
+
+img {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+    @include box-shadow;
+}
+
+p {
+    font-size: $text-size;
+}

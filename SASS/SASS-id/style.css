@@ -5,44 +5,52 @@ body {
   background: #97f5c1; }
 
 .container {
-  width: 960px;
+  width: 50%;
   margin: 0 auto; }
 
 h1 {
-  padding: 20px 0;
+  padding: 3% 0;
   text-align: center;
   background: #fc7e09;
   color: #b82323; }
 
 h2 {
-  margin-bottom: 0px;
-  padding-left: 10px;
+  margin-bottom: 0;
+  padding-left: 1%;
   text-align: left;
   background: #fc7e09;
   color: #b82323; }
 
 img {
-  height: 400px;
-  margin: 40px auto 40px;
+  height: 40%;
+  margin: 4% auto 4%;
   display: block; }
 
-table {
+.first_table {
   width: 100%;
-  color: #333;
+  color: #580081;
   background: #f1bc0c;
   border-collapse: collapse; }
+  .first_table tr {
+    border-bottom: 2px solid #eee; }
+  .first_table td {
+    padding: 1% 0; }
 
-tr {
-  border-bottom: 1px solid #eee; }
-
-td {
-  padding: 5px 0; }
-
-td:first-child {
-  width: 300px;
-  padding-left: 10px; }
+.second_table {
+  width: 100%;
+  color: #333;
+  background: #b4f10c;
+  border-collapse: collapse; }
+  .second_table tr {
+    border-bottom: 2px solid #eee; }
+  .second_table td {
+    padding: 1% 0; }
+    .second_table td:first-child {
+      width: 30%;
+      padding-left: 2%; }
 
 p#footer {
-  margin-top: 100px; }
+  margin-top: 10%;
+  background-color: #22f006; }
 
 /*# sourceMappingURL=style.css.map */

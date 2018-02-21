@@ -1,0 +1,18 @@
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+p, p:first-child, p:last-child {
+  border: 2px solid blue;
+  font-size: 1.5em;
+  width: 52.0833333333%; }
+
+p:first-child {
+  border-color: red;
+  width: 41.6666666667%; }
+
+p:last-child {
+  border-color: green;
+  width: 62.5%; }
+
+/*# sourceMappingURL=style.css.map */
