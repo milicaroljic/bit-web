@@ -62,6 +62,15 @@ h2 {
     padding: 10px 20px;
     border-radius: 20px;
     letter-spacing: 1.1px;
+<<<<<<< HEAD
+=======
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.header-btn-link:hover {
+    background-color: #f19b2c;
+>>>>>>> desktop-layout
 }
 
 .header-btn {
@@ -94,6 +103,7 @@ nav {
     text-align: center;
     padding: 5px 0;
     list-style-type: none;
+<<<<<<< HEAD
 }
 
 .main-link {
@@ -105,6 +115,19 @@ nav {
     padding: 10px;
 }
 
+=======
+}
+
+.main-link {
+    display: block;
+    color: #eaecee;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+>>>>>>> desktop-layout
 /* section-1 */
 .section-heading-holder {
     text-align: center;
@@ -140,6 +163,7 @@ h4,
     list-style-type: none;
     margin-top: 30px;
 }
+<<<<<<< HEAD
 
 .article-list-item {
     padding: 10px 0;
@@ -209,6 +233,75 @@ h4,
     padding: 10%;
 }
 
+=======
+
+.article-list-item {
+    padding: 10px 0;
+    color: #777;
+}
+
+.article-list-item > .fas {
+    padding-right: 10px;
+    color: #f19b2c;
+}
+
+/* section2 */
+.section-2 {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.comments-holder {
+    background-color: #81c3f5;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.comments:after {
+    display: block;
+    content: "";
+    clear: both;
+    overflow: auto;
+}
+
+.comments-inner {
+    padding-top: 10%;
+}
+
+.comments-holder img {
+    height: 100px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.comment-h {
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 5px;
+}
+
+.comments .fas {
+    color: #fff;
+}
+
+.comments-p {
+    color: #fff;
+}
+
+/* section3 */
+#mail-phone {
+    background-color: #3add9a;
+}
+
+.inner-contact-holder {
+    text-align: center;
+    padding: 10%;
+}
+
+>>>>>>> desktop-layout
 .phone-link,
 .mail-link,
 .social-link {
@@ -231,6 +324,7 @@ h4,
 
 .social-link {
     padding: 10px;
+<<<<<<< HEAD
 }
 
 #address-holder {
@@ -264,13 +358,57 @@ form {
     width: 90%;
     margin: 0 auto;
 }
+=======
+    transition: color .2s ease;
+}
+
+.social-link:hover {
+    color: #81c3f5;
+}
+
+#address-holder {
+    background-color: #376ce4;
+}
+
+.contact-touch {
+    height: 150px;
+}
+
+.address {
+    color: #fff;
+}
+
+/* section 4 */
+
+.house {
+    background-color: #81c3f5;
+    text-align: center;
+}
+
+.house img {
+    height: 180px;
+    width: 80%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+>>>>>>> desktop-layout
 input,
 textarea {
     display: block;
     width: 100%;
     margin-bottom: 15px;
     padding: 7px;
+<<<<<<< HEAD
     border: 1px, solid gray;
+=======
+>>>>>>> desktop-layout
 }
 
 input[type=submit] {
@@ -280,6 +418,15 @@ input[type=submit] {
     border: none;
     border-radius: 7px;
     padding: 8px;
+<<<<<<< HEAD
+=======
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover input[type=submit]{
+    background-color: #81c3f5;
+>>>>>>> desktop-layout
 }
 
 /* footer */
@@ -291,8 +438,12 @@ footer {
 
 #footer-nav {
     padding: 1%;
+<<<<<<< HEAD
     margin: 0 auto 10px auto;
     width: 100%;
+=======
+    margin: 0 0 25px 0;
+>>>>>>> desktop-layout
 }
 
 #footer-list {
@@ -304,6 +455,7 @@ footer {
 }
 
 .footer-item a {
+<<<<<<< HEAD
     color: #fff;  
 
 }
@@ -314,6 +466,19 @@ footer {
 
 
 @media only screen and (max-width: 768px)  {
+=======
+    color: #fff;
+    
+}
+
+
+.main-copyright {
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 768px)  {
+>>>>>>> desktop-layout
     .logo-holder {
         position: absolute;
         top: 10px;
@@ -379,6 +544,7 @@ footer {
         content: "";
         clear: both;
     }
+<<<<<<< HEAD
    #mail-phone {
         width:50%;
         float:left;
@@ -416,3 +582,121 @@ footer {
     #message {
         width: 90%;
     }
+=======
+
+    .contact-touch {
+        float: left;
+        width: 50%;
+    }
+
+    .section-4 .section-heading-holder {
+        display: none;
+    }
+
+    
+
+    .section-5:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    input {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .section-5 label:nth-of-type(3) input {
+        margin-right: 0;
+    }
+
+    input[type=submit] {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        padding: 17% 3%;
+    }
+
+    h2 {
+        font-size: 4rem;
+        padding: 0;
+    }
+
+    .section-1 {
+        text-align: center;
+    }
+
+    .section-1-article {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+        padding: 0 30px 30px;
+        text-align: left;
+    }
+
+    .article-heading {
+        margin-top: 0;
+    }
+
+    .section-1 img {
+        width: 25%;
+    }
+
+    .section-1-second-article {
+        margin-right: 0;
+    }
+
+    .section-2 {
+        padding: 0;
+    }
+
+    .comments-holder {
+        width: 31%;
+        margin-right: 1%;
+        padding: 3%;
+    }
+
+    .comments-inner {
+        padding-top: 5%;
+    }
+
+    .contact-touch {
+        width: 25%;
+        height: 200px;
+    }
+
+    address {
+        height: 200px;
+    }
+
+    .inner-contact-holder {
+        padding: 15%;
+        height: 100%;
+    }
+
+    .house.contact-touch {
+        padding: 1%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    form {
+        width: 60%;
+        margin: 0 auto;
+    }
+    textarea {
+        width: 90%;
+    }
+    
+    footer {
+        padding: 2%;
+    }
+}
+>>>>>>> desktop-layout
