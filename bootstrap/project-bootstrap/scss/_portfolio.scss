@@ -1,4 +1,33 @@
-.container{
-    img{margin-bottom: 10px;}
+.headlineText {
+    margin-top: 50px;
+    color: #212529;
+    font-weight: bold;
     text-align: center;
+}
+
+.profile {
+    margin-bottom: 50px;
+
+    .img-fluid {
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    h5 {
+        color: black;
+    }
+
+    }
+    @media (min-width: 768px){
+        .img-fluid {
+            width: 48%;
+            display: inline-block;
+            margin: 7px 5px;
+        }
+    }
+    @media (min-width: 1200px){
+        .img-fluid {
+            width: 32%;
+        }
+    }
 }

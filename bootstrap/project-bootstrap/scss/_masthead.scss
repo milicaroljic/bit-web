@@ -1,20 +1,30 @@
-header {
-    background-color: $main-color;
-    h1 {
-        font-size: 26px;
-      color: $text-light;
-      text-align: center;
-    }
-    p {
-        color:$text-light;
-        text-align: center;
-    }
-    img {
-        display:block;
-        width: 50%;
+@import "variables";
+
+.profil {
+    padding: 10px;
+    
+    img{
+        padding-top: 20px;
+        display: block;
         margin: 0 auto;
+        width: 200px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3%;
+        color:white;
+    }
+    h3 {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 4rem;
         }
-    .profile {
-       padding-top: 10%;
-}
+    }
 }
