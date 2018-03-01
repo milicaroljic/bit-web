@@ -1,0 +1,11 @@
+img {
+    width: 33%;
+}
+
+.red {
+    border: 1px solid tomato;
+}
+
+.test {
+    border: 0;
+}
