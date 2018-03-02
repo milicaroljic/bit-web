@@ -1,5 +1,5 @@
 
- var player = document.querySelector("img");
+var player = document.querySelector("img");
 var listener = document.querySelector("body");
 var button  = document.querySelector("button");
 
