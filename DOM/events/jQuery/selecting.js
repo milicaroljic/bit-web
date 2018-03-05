@@ -1,4 +1,0 @@
-$(function () {
-    $("li").text().toUpperCase();
-    
-});

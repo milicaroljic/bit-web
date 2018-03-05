@@ -1,0 +1,12 @@
+.bottomBorder {
+    border-bottom: 3px solid red;
+}
+.textTransform {
+    text-transform: uppercase;
+}
+.fontColor {
+    color: blue;
+}
+.bgColor{
+    background-color: rgb(92, 205, 98);
+}
