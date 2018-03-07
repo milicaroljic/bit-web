@@ -1,5 +1,5 @@
      $(function () { 
-         //
+         
             $('li').click(function(){
                 console.log('Click happened!');
                 
